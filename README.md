@@ -44,7 +44,7 @@ Install backend dependencies (for Flask):
 
 Start the Flask backend:
     ```bash
-    python app.py
+    python3 app.py
     ```
 
 Install frontend dependencies (for Svelte):
