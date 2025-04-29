@@ -56,4 +56,5 @@ Install frontend dependencies (for Svelte):
 Access the system through your browser at `http://localhost:5000`.
 
 ## License
+This software is free to use, modify, and distribute. It is provided "as-is" without any warranty of any kind, either express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement. The author is not liable for any damages or issues arising from the use of this software.
 
