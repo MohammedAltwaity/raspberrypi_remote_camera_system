@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project implements a **Raspberry Pi Remote Camera Monitoring System** (the API for video feed should be edited based on the Pi camera) using **Flask** for the backend and **Svelte** for the frontend. The system streams live video from the Raspberry Pi camera, provides user authentication, and allows access to user information stored in an SQLite database.
+This project implements a **Raspberry Pi Remote Camera Monitoring System** (the API for video feed should be edited based on the Pi camera) using **Flask** for the backend and **Svelte** for the frontend. The system streams live video from the Raspberry Pi camera, provides user authentication, and allows access to user information stored in an SQLite database. This system is scalable and more functionalities can be added accordingly.
 
 
 Additionally, it integrates weather data fetching through an external API to display real-time weather conditions (temperature, humidity, and wind speed) for a given location.
@@ -39,7 +39,7 @@ Navigate into the project folder:
 
 Install backend dependencies (for Flask):
     ```bash
-    pip install -r requirements.txt
+    pip3 install flaks flask-cors opencv-python
     ```
 
 Start the Flask backend:
